@@ -1,0 +1,190 @@
+personasPadre = [
+  {
+    'id': 1,
+    'datosPricipales': {
+      'nombre': 'Erick Venegas',
+      'profesion': 'Ingeniero Informático'
+    },
+      'informacionPersonal': {
+        'rut': '15.677.877-K',
+        'edad': 33,
+        'nac': 'Chilena',
+        'email': 'erickvader@gmail.com',
+        'residencia': 'Santiago'
+    },
+    'perfilProfesional':  {
+      'perfil': 'Ingeniero de Sistemas con 2 años de experiencia en el área' +
+                'de soporte a usuarios a nivel general y empresarial, amplia' +
+                'experiencia en soporte técnico de hardware de PCs y Notebook,' +
+                'manejo de Active Directory, aplicaciones ofimática,' +
+                'correo electronico Outlook, cuentas G Suite de Google,' +
+                'experiencia con servicios AWS'
+    },
+    'EstudiosRealizados': [
+      {
+        'titulo': 'Ingenieria Informática',
+        'instituto': 'Universidad Tecnológica INACAP',
+        'duracion': 4,
+        'fechaEgreso': 'Julio 2016'
+      },
+      {
+        'titulo': 'Ingenieria Informática',
+        'instituto': 'Universidad Tecnológica INACAP',
+        'duracion': '2016 - En curso',
+        'fechaEgreso': 'Julio 2016'
+      },
+      ],
+    'aptitudes': [
+      'Responsable',
+      'Proactivo',
+      'Puntual',
+      'Trabajo en equipo',
+      'Gusta de desafíos',
+      'Activo en nuevas técnologias',
+      'Gusta de la investigación',
+      'Español: nativo',
+      'Ingles: Básico'
+      ],
+      'programas': [
+        'Paqueteria Office',
+        'PHPStorm',
+        'Sublime',
+        'Netbeans',
+        'Git / SVN',
+        'Bitbucket',
+        'Trello / Cambanary',
+        'Workbeanch',
+        'Visio',
+        'Filezilla',
+        'SOAP UI / Postman',
+        'Fireword de Adobe',
+        'Codenvy',
+        'Slack'
+      ],
+      'ExperienciaLaboral': [
+        {
+          'empresa': 'Febos, IA Soluciones, Software Analyst Developer',
+          'cargo': 'Desarrollador de Software',
+          'fecha_ingreso': 'Marzo - Noviembre 2017',
+          'descripcion': 'Se desempeña como Desarrollador de software' +
+          'financiero con tecnología Java Maven (IDE Netbeans), FreeMarker' +
+          'para generación de planillas, XML (Backend, orientada a la estructura' +
+          'MVC REST, diseñando con framework pripio, enlazado a Amazon Lambdas,' +
+          'API Gateway, S3. Motor de bases de datos MySQL 5.7.x'
+        },
+        {
+          'empresa': 'Bolsa de Productos',
+          'cargo': 'Desarrollador de Software',
+          'fecha_ingreso': 'Marzo 2016 - Febrero 2017',
+          'descripcion': 'Desarrollador de software financiero con tecnología,' +
+          'PHP, Javascript, JQuery, JSon, Ajax, XML, Motor de base de datos MySQL 5.6' +
+          'Desarrollo de motor de cesiones de facturas conectado vía web sercice' +
+          'con el SII, para ceder, consultar estados, validar DTE y AEC, validación' +
+          'de esquemas de una factura. Desallado con PHP POO y MySQL 5.6'
+        },
+        {
+          'empresa': 'SUPER RED TV',
+          'cargo': 'Programador',
+          'fecha_ingreso': 'Diciembre 2013 - Febrero 2015',
+          'descripcion': 'Desarrollador de sitios web con experiencia en CMS Joomla,' +
+          'PHP5 (framework Codeigniter), HTML5, CSS3, Javascript, JQuery,' +
+          'Manipulador de servidores Linux Debian'
+        }
+      ]
+  },
+  {
+    'id': 2,
+    'datosPricipales': {
+      'nombre': 'Luis Andrés Sánchez Millán',
+      'profesion': 'Ingeniero de Sistemas'
+    },
+      'informacionPersonal': {
+        'rut': '26.401.000-4',
+        'edad': 29,
+        'nac': 'Venezolana',
+        'email': 'sanchezmillanluis@gmail.com',
+        'residencia': 'Santiago'
+    },
+    'perfilProfesional':  {
+      'perfil': 'Ingeniero de Sistemas con 2 años de experiencia en el área' +
+                'de soporte a usuarios a nivel general y empresarial, amplia' +
+                'experiencia en soporte técnico de hardware de PCs y Notebook,' +
+                'manejo de Active Directory, aplicaciones ofimática,' +
+                'correo electronico Outlook, cuentas G Suite de Google,' +
+                'experiencia con servicios AWS'
+    },
+    'EstudiosRealizados': [
+      {
+        'titulo': 'Ingeniero de Sistemas',
+        'instituto': 'I.U.P Santiago Mariño',
+        'duracion': 5,
+        'fechaEgreso': 'Julio 2016'
+      },
+      {
+        'titulo': 'Desarrollador de Software',
+        'instituto': 'I.U.P Tecnología Caripito',
+        'duracion': 2,
+        'fechaEgreso': 'Septiembre 2009'
+      },
+      {
+        'titulo': 'Bachiller en Ciencias',
+        'instituto': 'U.E Francisco Isnardi',
+        'duracion': 5,
+        'fechaEgreso': 'Julio 2005'
+        }
+      ],
+    'aptitudes': [
+      'Trabajo en equipo',
+      'Responsabilidad',
+      'Honestidad',
+      'Adaptabilidad',
+      'Proactividad',
+      'Seriedad',
+      'Puntualidad',
+      'Disciplina'
+      ],
+      'programas': [
+        'Paqueteria Office 365',
+        'Ubuntu',
+        'Atom',
+        'TeamViewer',
+        'Active Directory',
+        'Sublime Text',
+        'Eclipse',
+        'Windows 10',
+        'Windows 7',
+        '"Windows Server"'
+      ],
+      'ExperienciaLaboral': [
+        {
+          'empresa': 'Avla S.A',
+          'cargo': 'Soporte TI',
+          'fecha_ingreso': 'Marzo 2018 - Acual',
+          'descripcion': 'Soporte a usuarios a nivel de hardware y' +
+          'software informático, manejo de Active Directory, Respaldo y' +
+          'recuperación de información en AWS, contacto con proveedores,' +
+          'manejo de Call Manager Cisco, administración de redes y servidores'
+        },
+        {
+          'empresa': 'Quiriquire Gas, S.A. (Extranjero)',
+          'cargo': 'Soporte TI',
+          'fecha_ingreso': 'Febrero 2017 - Enero 2018',
+          'descripcion': 'Soporte técnico de activos informáticos - Desarrollo,' +
+          'instalación, configuración e implantación de nueva imagen corporativa de' +
+          'la empresa basada en Windows 7 Professional - Gestión de incidencias bajo' +
+          'el sistema Remedy, conexión de Videoconferencias locales, nacionales' +
+          'e internacionales - Instalación, configuración y soporte de Correo' +
+          'Electrónico MS Outlook 2010 - Instalación, configuración y soporte' +
+          'de aplicaciones de ofimática, soporte de Redes, respaldo' +
+          'y recuperación de data - Manejo de inventario de Hardware' +
+          'y Software - Soporte integral a usuarios - Desarrollo' +
+          'de aplicaciones web Sistema de Gestión de Reuniones - Monitoreo' +
+          'de Sistema SCADA - Manejo de entorno de desarrollo' +
+          'y visualización Wonderware Intouch - Manejo de entorno' +
+          'de programación Proworx32 Programación de PLC’s' +
+          'Configuración de computadores de flujo Honeywell' +
+          'y de transmisores de flujo Rosemount'
+        }
+      ]
+  }
+];

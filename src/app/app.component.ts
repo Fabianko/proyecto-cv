@@ -1,7 +1,5 @@
 import { Component } from '@angular/core';
 
-import * as personas from '../assets/personas.json';
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -9,13 +7,14 @@ import * as personas from '../assets/personas.json';
 })
 
 export class AppComponent {
-
+  public personas;
   constructor() {
-       console.log(personas);
+    this.personas = require('../assets/personas.json');
+    console.log(this.personas);
+    // this.personas = require('../assets/personas.json');
+    // console.log(this.personas);
    }
-
 }
-
 
 // personas;
 // json;

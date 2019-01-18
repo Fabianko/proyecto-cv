@@ -1,5 +1,4 @@
-import { Component, OnInit, Input, ViewChild} from '@angular/core';
-
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-cv',
@@ -9,10 +8,9 @@ import { Component, OnInit, Input, ViewChild} from '@angular/core';
 export class CvComponent implements OnInit {
 
 
-@Input() personas;
+  constructor() {
 
-
-  constructor() { }
+  }
 
   ngOnInit() {
   }

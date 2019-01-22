@@ -7,10 +7,8 @@ import { Component } from '@angular/core';
 })
 
 export class AppComponent {
-  public personas;
+
   constructor() {
-    this.personas = require('../assets/personas.json');
-    console.log(this.personas);
     // this.personas = require('../assets/personas.json');
     // console.log(this.personas);
    }

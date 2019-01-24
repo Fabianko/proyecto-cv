@@ -1,5 +1,6 @@
+// declare var require: any;
 import { Component, OnInit } from '@angular/core';
-import personas from '../../assets/personas.json';
+import personas from '../../assets/json/personas.json';
 
 
 @Component({
@@ -8,7 +9,7 @@ import personas from '../../assets/personas.json';
   styleUrls: ['./cv.component.css']
 })
 export class CvComponent implements OnInit {
-
+//  imgname = require('../../assets/image/foto.jpg');
   public personas: any;
   public json: any;
   public id: any;
@@ -18,10 +19,7 @@ export class CvComponent implements OnInit {
 
   ngOnInit() {
     this.personas = personas;
-    console.log(JSON.stringify(personas));
   }
-
-
 
   public seleccionarPersonas ($event) {
        console.log($event);

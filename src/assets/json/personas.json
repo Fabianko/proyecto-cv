@@ -1,4 +1,8 @@
-    [{
+    [
+      {
+      "fotoPerfil": {
+        "imageUrl": "./assets/image/luis.jpg"
+      },
       "id": 1,
       "datosPricipales": {
         "nombre": "Luis Andrés Sánchez Millán",
@@ -63,6 +67,9 @@
       ]
     },
     {
+      "fotoPerfil": {
+        "imageUrl": "./assets/image/erick.png"
+      },
       "id": 2,
       "datosPricipales": {
         "nombre": "Erick Venegas",

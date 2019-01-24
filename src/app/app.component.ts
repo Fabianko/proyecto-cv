@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 
 export class AppComponent {
+  titulo = 'Resumen Curricular Desarroladores';
 
   constructor() {
     // this.personas = require('../assets/personas.json');

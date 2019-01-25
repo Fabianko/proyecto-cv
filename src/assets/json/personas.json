@@ -1,171 +1,172 @@
-    [
-      {
-      "fotoPerfil": {
-        "imageUrl": "./assets/image/luis.jpg"
-      },
-      "id": 1,
-      "datosPricipales": {
-        "nombre": "Luis Andrés Sánchez Millán",
-        "profesion": "Ingeniero de Sistemas"
-      },
-      "informacionPersonal": {
-        "rut": "26.401.000-4",
-        "edad": 29,
-        "nac": "Venezolana",
-        "email": "sanchezmillanluis@gmail.com",
-        "residencia": "Santiago"
-      },
-      "perfilProfesional": {
-        "perfil": [
-          "Ingeniero de Sistemas con 2 años de experiencia en el área",
-          "de soporte a usuarios a nivel general y empresarial, amplia",
-          "experiencia en soporte técnico de hardware de PCs y Notebook,",
-          "manejo de Active Directory, aplicaciones ofimática,",
-          "correo electronico Outlook, cuentas G Suite de Google,",
-          "experiencia con servicios AWS"
-        ]
-      },
-      "EstudiosRealizados": [{
-          "titulo": "Ingeniero de Sistemas",
-          "instituto": "I.U.P Santiago Mariño",
-          "duracion": 5,
-          "fechaEgreso": "Julio 2016"
-        },
-        {
-          "titulo": "Desarrollador de Software",
-          "instituto": "I.U.P Tecnología Caripito",
-          "duracion": 2,
-          "fechaEgreso": "Septiembre 2009"
-        },
-        {
-          "titulo": "Bachiller en Ciencias",
-          "instituto": "U.E Francisco Isnardi",
-          "duracion": 5,
-          "fechaEgreso": "Julio 2005"
-        }
-      ],
-      "aptitudes": [
-        "Trabajo en equipo",
-        "Responsabilidad",
-        "Honestidad",
-        "Adaptabilidad",
-        "Proactividad",
-        "Seriedad",
-        "Puntualidad",
-        "Disciplina"
-      ],
-      "programas": [
-        "Paqueteria Office 365",
-        "Ubuntu",
-        "Atom",
-        "TeamViewer",
-        "Active Directory",
-        "Sublime Text",
-        "Eclipse",
-        "Windows 10",
-        "Windows 7"
+[{
+    "fotoPerfil": {
+      "imageUrl": "./assets/image/luis.jpg"
+    },
+    "id": 1,
+    "idEspecialidad": 1,
+    "datosPricipales": {
+      "nombre": "Luis Andrés Sánchez Millán",
+      "profesion": "Ingeniero de Sistemas"
+    },
+    "informacionPersonal": {
+      "rut": "26.401.000-4",
+      "edad": 29,
+      "nac": "Venezolana",
+      "email": "sanchezmillanluis@gmail.com",
+      "residencia": "Santiago"
+    },
+    "perfilProfesional": {
+      "perfil": [
+        "Ingeniero de Sistemas con 2 años de experiencia en el área",
+        "de soporte a usuarios a nivel general y empresarial, amplia",
+        "experiencia en soporte técnico de hardware de PCs y Notebook,",
+        "manejo de Active Directory, aplicaciones ofimática,",
+        "correo electronico Outlook, cuentas G Suite de Google,",
+        "experiencia con servicios AWS"
       ]
     },
-    {
-      "fotoPerfil": {
-        "imageUrl": "./assets/image/erick.png"
+    "EstudiosRealizados": [{
+        "titulo": "Ingeniero de Sistemas",
+        "instituto": "I.U.P Santiago Mariño",
+        "duracion": 5,
+        "fechaEgreso": "Julio 2016"
       },
-      "id": 2,
-      "datosPricipales": {
-        "nombre": "Erick Venegas",
-        "profesion": "Ingeniero Informático"
+      {
+        "titulo": "Desarrollador de Software",
+        "instituto": "I.U.P Tecnología Caripito",
+        "duracion": 2,
+        "fechaEgreso": "Septiembre 2009"
       },
-      "informacionPersonal": {
-        "rut": "15.677.877-K",
-        "edad": 33,
-        "nac": "Chilena",
-        "email": "erickvader@gmail.com",
-        "residencia": "Santiago"
+      {
+        "titulo": "Bachiller en Ciencias",
+        "instituto": "U.E Francisco Isnardi",
+        "duracion": 5,
+        "fechaEgreso": "Julio 2005"
+      }
+    ],
+    "aptitudes": [
+      "Trabajo en equipo",
+      "Responsabilidad",
+      "Honestidad",
+      "Adaptabilidad",
+      "Proactividad",
+      "Seriedad",
+      "Puntualidad",
+      "Disciplina"
+    ],
+    "programas": [
+      "Paqueteria Office 365",
+      "Ubuntu",
+      "Atom",
+      "TeamViewer",
+      "Active Directory",
+      "Sublime Text",
+      "Eclipse",
+      "Windows 10",
+      "Windows 7"
+    ]
+  },
+  {
+    "fotoPerfil": {
+      "imageUrl": "./assets/image/erick.png"
+    },
+    "id": 2,
+    "idEspecialidad": 2,
+    "datosPricipales": {
+      "nombre": "Erick Venegas",
+      "profesion": "Ingeniero Informático"
+    },
+    "informacionPersonal": {
+      "rut": "15.677.877-K",
+      "edad": 33,
+      "nac": "Chilena",
+      "email": "erickvader@gmail.com",
+      "residencia": "Santiago"
+    },
+    "perfilProfesional": {
+      "perfil": [
+        "Ingeniero de Sistemas con 2 años de experiencia en el área",
+        "de soporte a usuarios a nivel general y empresarial, amplia",
+        "experiencia en soporte técnico de hardware de PCs y Notebook,",
+        "manejo de Active Directory, aplicaciones ofimática,",
+        "correo electronico Outlook, cuentas G Suite de Google,",
+        "experiencia con servicios AWS"
+      ]
+    },
+    "EstudiosRealizados": [{
+        "titulo": "Ingenieria Informática",
+        "instituto": "Universidad Tecnológica INACAP",
+        "duracion": 4,
+        "fechaEgreso": "Julio 2016"
       },
-      "perfilProfesional": {
-        "perfil": [
-          "Ingeniero de Sistemas con 2 años de experiencia en el área",
-          "de soporte a usuarios a nivel general y empresarial, amplia",
-          "experiencia en soporte técnico de hardware de PCs y Notebook,",
-          "manejo de Active Directory, aplicaciones ofimática,",
-          "correo electronico Outlook, cuentas G Suite de Google,",
-          "experiencia con servicios AWS"
+      {
+        "titulo": "Ingenieria Informática",
+        "instituto": "Universidad Tecnológica INACAP",
+        "duracion": "2016 - En curso",
+        "fechaEgreso": "Julio 2016"
+      }
+    ],
+    "aptitudes": [
+      "Responsable",
+      "Proactivo",
+      "Puntual",
+      "Trabajo en equipo",
+      "Gusta de desafíos",
+      "Activo en nuevas técnologias",
+      "Gusta de la investigación",
+      "Español: nativo",
+      "Ingles: Básico"
+    ],
+    "programas": [
+      "Paqueteria Office",
+      "PHPStorm",
+      "Sublime",
+      "Netbeans",
+      "Git / SVN",
+      "Bitbucket",
+      "Trello / Cambanary",
+      "Workbeanch",
+      "Visio",
+      "Filezilla",
+      "SOAP UI / Postman",
+      "Fireword de Adobe",
+      "Codenvy",
+      "Slack"
+    ],
+    "ExperienciaLaboral": [{
+        "empresa": "Febos, IA Soluciones, Software Analyst Developer",
+        "cargo": "Desarrollador de Software",
+        "fecha_ingreso": "Marzo - Noviembre 2017",
+        "descripcion": [
+          "Se desempeña como Desarrollador de software",
+          "financiero con tecnología Java Maven (IDE Netbeans), FreeMarker",
+          "para generación de planillas, XML (Backend, orientada a la estructura",
+          "MVC REST, diseñando con framework pripio, enlazado a Amazon Lambdas,",
+          "API Gateway, S3. Motor de bases de datos MySQL 5.7.x"
         ]
       },
-      "EstudiosRealizados": [{
-          "titulo": "Ingenieria Informática",
-          "instituto": "Universidad Tecnológica INACAP",
-          "duracion": 4,
-          "fechaEgreso": "Julio 2016"
-        },
-        {
-          "titulo": "Ingenieria Informática",
-          "instituto": "Universidad Tecnológica INACAP",
-          "duracion": "2016 - En curso",
-          "fechaEgreso": "Julio 2016"
-        }
-      ],
-      "aptitudes": [
-        "Responsable",
-        "Proactivo",
-        "Puntual",
-        "Trabajo en equipo",
-        "Gusta de desafíos",
-        "Activo en nuevas técnologias",
-        "Gusta de la investigación",
-        "Español: nativo",
-        "Ingles: Básico"
-      ],
-      "programas": [
-        "Paqueteria Office",
-        "PHPStorm",
-        "Sublime",
-        "Netbeans",
-        "Git / SVN",
-        "Bitbucket",
-        "Trello / Cambanary",
-        "Workbeanch",
-        "Visio",
-        "Filezilla",
-        "SOAP UI / Postman",
-        "Fireword de Adobe",
-        "Codenvy",
-        "Slack"
-      ],
-      "ExperienciaLaboral": [{
-          "empresa": "Febos, IA Soluciones, Software Analyst Developer",
-          "cargo": "Desarrollador de Software",
-          "fecha_ingreso": "Marzo - Noviembre 2017",
-          "descripcion": [
-            "Se desempeña como Desarrollador de software",
-            "financiero con tecnología Java Maven (IDE Netbeans), FreeMarker",
-            "para generación de planillas, XML (Backend, orientada a la estructura",
-            "MVC REST, diseñando con framework pripio, enlazado a Amazon Lambdas,",
-            "API Gateway, S3. Motor de bases de datos MySQL 5.7.x"
-          ]
-        },
-        {
-          "empresa": "Bolsa de Productos",
-          "cargo": "Desarrollador de Software",
-          "fecha_ingreso": "Marzo 2016 - Febrero 2017",
-          "descripcion": [
-            "Desarrollador de software financiero con tecnología,",
-            "PHP, Javascript, JQuery, JSon, Ajax, XML, Motor de base de datos MySQL 5.6",
-            "Desarrollo de motor de cesiones de facturas conectado vía web sercice",
-            "con el SII, para ceder, consultar estados, validar DTE y AEC, validación",
-            "de esquemas de una factura. Desallado con PHP POO y MySQL 5.6"
-          ]
-        },
-        {
-          "empresa": "SUPER RED TV",
-          "cargo": "Programador",
-          "fecha_ingreso": "Diciembre 2013 - Febrero 2015",
-          "descripcion": [
-            "Desarrollador de sitios web con experiencia en CMS Joomla,",
-            "PHP5 (framework Codeigniter), HTML5, CSS3, Javascript, JQuery,",
-            "Manipulador de servidores Linux Debian"
-          ]
-        }
-      ]
-    }
-  ]
+      {
+        "empresa": "Bolsa de Productos",
+        "cargo": "Desarrollador de Software",
+        "fecha_ingreso": "Marzo 2016 - Febrero 2017",
+        "descripcion": [
+          "Desarrollador de software financiero con tecnología,",
+          "PHP, Javascript, JQuery, JSon, Ajax, XML, Motor de base de datos MySQL 5.6",
+          "Desarrollo de motor de cesiones de facturas conectado vía web sercice",
+          "con el SII, para ceder, consultar estados, validar DTE y AEC, validación",
+          "de esquemas de una factura. Desallado con PHP POO y MySQL 5.6"
+        ]
+      },
+      {
+        "empresa": "SUPER RED TV",
+        "cargo": "Programador",
+        "fecha_ingreso": "Diciembre 2013 - Febrero 2015",
+        "descripcion": [
+          "Desarrollador de sitios web con experiencia en CMS Joomla,",
+          "PHP5 (framework Codeigniter), HTML5, CSS3, Javascript, JQuery,",
+          "Manipulador de servidores Linux Debian"
+        ]
+      }
+    ]
+  }
+]

@@ -6,13 +6,20 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <form>
-  <select class="form-control form-control-lg" name="personas" [(ngModel)]="id" (ngModelChange)="seleccionarPersonas($event)">
-    <option selected="i==0">Seleccione Persona</option>
-    <option *ngFor="let persona of personas ; let i=index" value="{{i}}">{{persona.datosPricipales.nombre}}</option>
+  <select class="form-control form-control-lg" name="especialidades" [(ngModel)]="id">
+    <option selected value="" disabled>Seleccione Especialidad</option>
+    <option *ngFor="let ocupacion of especialidades ; let i=index" [(ngValue)] ="i" >{{ocupacion.especialidad.carreras}}</option>
   </select>
 </form>
 
 <hr />
+
+<form>
+  <select class="form-control form-control-lg" name="personas" [(ngModel)]="id" (ngModelChange)="seleccionarPersonas($event)" >
+    <option selected value="" disabled>Seleccione Persona</option>
+    <option *ngFor="let persona of personas ; let i=index" [(ngValue)] ="i" >{{persona.datosPricipales.nombre}}</option>
+  </select>
+</form>
 
 <div>
   <div class="row" *ngIf="json">

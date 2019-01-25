@@ -1,0 +1,13 @@
+{
+  "especialidad": {
+    "carreras": [
+      "Informatica",
+      "Administracion",
+      "Ingenieria de Sistemas",
+      "Ingenieria Civil",
+      "Contaduria",
+      "Ingeniero Comercial"
+      
+    ]
+  }
+}

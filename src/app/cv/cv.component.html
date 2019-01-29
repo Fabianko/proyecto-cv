@@ -8,7 +8,7 @@
 <form>
   <select class="form-control form-control-lg"
   name="especialidad" [(ngModel)]="idEspecialidad"
-  (ngModelChange)="seleccionarEspecialidad($event)">
+  (ngModelChange)="cargarPersonas(idEspecialidad)">
     <option selected value='' disabled>Seleccione Especialidad</option>
     <option *ngFor="let ocupacion of especialidades ; let i=index"
     [(ngValue)] ="1+i" >{{ocupacion.carrera}}</option>
@@ -17,14 +17,13 @@
 
 <hr />
 
-<form>
-  <select class="form-control form-control-lg" name="personas"
-  [(ngModel)]="id" [disabled] = "!idEspecialidad"
-  (ngModelChange)="seleccionarPersonas($event)" >
+<form *ngIf="captarPersonas.length > 0">
+  <!-- <select n class="form-control form-control-lg" name="personas"
+ [disabled] = "!idEspecialidad" >
     <option selected value=null disabled>Seleccione Persona</option>
-    <option *ngFor="let persona of personas ; let i=index"
-    [(ngValue)] ="i" >{{persona.datosPricipales.nombre}}</option>
-  </select>
+    <option *ngFor="persona of captarPersonas" value="1">{{persona.datosPricipales.nombre}}</option>
+  </select> -->
+  <pre>{{captarPersonas | json}}</pre>
 </form>
 
 <hr />

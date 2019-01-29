@@ -19,6 +19,7 @@ export class CvComponent implements OnInit {
   public idEspecialidad: any = '';
   public especialidades: any;
   public jsonEspecialidad: any;
+  public captarPersonas: any = [];
 
 
   constructor() {
@@ -27,6 +28,7 @@ export class CvComponent implements OnInit {
   ngOnInit() {
     this.personas = personas;
     this.especialidades = especialidades;
+    // this.jsonEspecialidad = this.especialidades(this.idEspecialidad);
   }
 
   public seleccionarPersonas ($event) {
@@ -40,4 +42,14 @@ export class CvComponent implements OnInit {
          // this.jsonEspecialidad = this.especialidades(this.idEspecialidad);
       }
 
+    cargarPersonas(id, $event) {
+      this.captarPersonas = [];
+        for (let i = 0; i < this.personas.length; i++) {
+          if (this.personas[i].idEspecialidad === id) {
+            console.log('if', $event);
+            this.captarPersonas.push(this.personas[i]);
+          }
+          console.log(this.captarPersonas.length);
+        }
+      }
 }

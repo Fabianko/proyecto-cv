@@ -3,7 +3,7 @@
       "imageUrl": "./assets/image/luis.jpg"
     },
     "id": 1,
-    "idEspecialidad": 1,
+    "idEspecialidad": 3,
     "datosPricipales": {
       "nombre": "Luis Andrés Sánchez Millán",
       "profesion": "Ingeniero de Sistemas"
@@ -71,7 +71,7 @@
       "imageUrl": "./assets/image/erick.png"
     },
     "id": 2,
-    "idEspecialidad": 2,
+    "idEspecialidad": 1,
     "datosPricipales": {
       "nombre": "Erick Venegas",
       "profesion": "Ingeniero Informático"

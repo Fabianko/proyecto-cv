@@ -6,20 +6,28 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <form>
-  <select class="form-control form-control-lg" name="especialidades" [(ngModel)]="id">
-    <option selected value="" disabled>Seleccione Especialidad</option>
-    <option *ngFor="let ocupacion of especialidades ; let i=index" [(ngValue)] ="i" >{{ocupacion.especialidad.carreras}}</option>
+  <select class="form-control form-control-lg"
+  name="especialidad" [(ngModel)]="idEspecialidad"
+  (ngModelChange)="seleccionarEspecialidad($event)">
+    <option selected value='' disabled>Seleccione Especialidad</option>
+    <option *ngFor="let ocupacion of especialidades ; let i=index"
+    [(ngValue)] ="1+i" >{{ocupacion.carrera}}</option>
   </select>
 </form>
 
 <hr />
 
 <form>
-  <select class="form-control form-control-lg" name="personas" [(ngModel)]="id" (ngModelChange)="seleccionarPersonas($event)" >
-    <option selected value="" disabled>Seleccione Persona</option>
-    <option *ngFor="let persona of personas ; let i=index" [(ngValue)] ="i" >{{persona.datosPricipales.nombre}}</option>
+  <select class="form-control form-control-lg" name="personas"
+  [(ngModel)]="id" [disabled] = "!idEspecialidad"
+  (ngModelChange)="seleccionarPersonas($event)" >
+    <option selected value=null disabled>Seleccione Persona</option>
+    <option *ngFor="let persona of personas ; let i=index"
+    [(ngValue)] ="i" >{{persona.datosPricipales.nombre}}</option>
   </select>
 </form>
+
+<hr />
 
 <div>
   <div class="row" *ngIf="json">
@@ -28,8 +36,10 @@
         <div class="div_image">
           <img class="img-thumbnail" src={{json.fotoPerfil.imageUrl}} alt="">
         </div>
-        <h1 class="margen_superior2" align="center"> {{json.datosPricipales.nombre}} </h1>
-        <h2 class="margen_superior" align="center"> {{json.datosPricipales.profesion}} </h2>
+        <h1 class="margen_superior2" align="center">
+          {{json.datosPricipales.nombre}} </h1>
+        <h2 class="margen_superior" align="center">
+          {{json.datosPricipales.profesion}} </h2>
 
         <div>
           <h3 class="margen_info">Información Personal</h3>

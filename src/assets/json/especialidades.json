@@ -1,13 +1,21 @@
-{
-  "especialidad": {
-    "carreras": [
-      "Informatica",
-      "Administracion",
-      "Ingenieria de Sistemas",
-      "Ingenieria Civil",
-      "Contaduria",
-      "Ingeniero Comercial"
-      
-    ]
+[{
+    "id": 1,
+    "carrera": "Informática"
+  },
+  {
+    "id": 2,
+    "carrera": "Ingeniero en Computación"
+  },
+  {
+    "id": 3,
+    "carrera": "Ingenieria de Sistemas"
+  },
+  {
+    "id": 4,
+    "carrera": "Ingenieria Civil"
+  },
+  {
+    "id": 5,
+    "carrera": "Contaduría"
   }
-}
+]

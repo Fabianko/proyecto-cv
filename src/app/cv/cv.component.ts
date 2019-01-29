@@ -10,13 +10,15 @@ import especialidades from '../../assets/json/especialidades.json';
   styleUrls: ['./cv.component.css']
 })
 export class CvComponent implements OnInit {
-//  imgname = require('../../assets/image/foto.jpg');
+
   public personas: any;
   public json: any;
 
   // Valor inicial de id para tomar valor del primer optiom
-  public id: any = '';
-  public especialidad: any = '';
+  public id: number = null;
+  public idEspecialidad: any = '';
+  public especialidades: any;
+  public jsonEspecialidad: any;
 
 
   constructor() {
@@ -24,7 +26,7 @@ export class CvComponent implements OnInit {
 
   ngOnInit() {
     this.personas = personas;
-    this.especialidad =  especialidades;
+    this.especialidades = especialidades;
   }
 
   public seleccionarPersonas ($event) {
@@ -34,7 +36,8 @@ export class CvComponent implements OnInit {
 
     public seleccionarEspecialidad ($event) {
          console.log($event);
-         this.json = this.especialidad[this.especialidad];
+         console.log(this.especialidades);
+         // this.jsonEspecialidad = this.especialidades(this.idEspecialidad);
       }
 
 }

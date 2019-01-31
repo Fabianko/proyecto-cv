@@ -64,6 +64,40 @@
       "Eclipse",
       "Windows 10",
       "Windows 7"
+    ],
+    "ExperienciaLaboral": [{
+        "empresa": "Avla S.A",
+        "cargo": "Soporte TI",
+        "fecha_ingreso": "Marzo 2018 - Acual",
+        "descripcion": [
+          "Soporte a usuarios a nivel de hardware y software informático,",
+          "manejo de Active Directory, Respaldo y recuperación de información",
+          "en AWS, contacto con proveedores, manejo de Call Manager Cisco,",
+          "administración de redes y servidores"
+        ]
+      },
+      {
+        "empresa": "Quiriquire Gas, S.A. (Extranjero)",
+        "cargo": "Soporte TI",
+        "fecha_ingreso": "Febrero 2017 - Enero 2018",
+        "descripcion": [
+          "Soporte técnico de activos informáticos - Desarrollo, instalación,",
+          "configuración e implantación de nueva imagen corporativa de la empresa",
+          "basada en Windows 7 Professional - Gestión de incidencias bajo el",
+          "sistema Remedy, conexión de Videoconferencias locales, nacionales",
+          "e internacionales - Instalación, configuración y soporte de Correo",
+          "Electrónico MS Outlook 2010 - Instalación, configuración y soporte",
+          "de aplicaciones de ofimática, soporte de Redes, respaldo",
+          "y recuperación de data - Manejo de inventario de Hardware",
+          "y Software - Soporte integral a usuarios - Desarrollo",
+          "de aplicaciones web Sistema de Gestión de Reuniones - Monitoreo",
+          "de Sistema SCADA - Manejo de entorno de desarrollo",
+          "y visualización Wonderware Intouch - Manejo de entorno",
+          "de programación Proworx32 Programación de PLC’s'",
+          "Configuración de computadores de flujo Honeywell",
+          "y de transmisores de flujo Rosemount"
+        ]
+      }
     ]
   },
   {

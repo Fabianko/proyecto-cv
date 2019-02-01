@@ -30,6 +30,21 @@ export class CvComponent implements OnInit {
     // this.jsonEspecialidad = this.especialidades(this.idEspecialidad);
   }
 
+  cargarPersonas(id) {
+    this.captarPersonas = [];
+    for (let i = 0; i < this.personas.length; i++) {
+      if (this.personas[i].idEspecialidad === id) {
+        // console.log('if', $event);
+        this.captarPersonas.push(this.personas[i]);
+        return this.captarPersonas;
+      } else {
+        this.id = null;
+      }
+    }
+    this.json = null;
+      // console.log(this.captarPersonas.length);
+  }
+
   public seleccionarPersonas($event) {
     console.log($event);
     this.json = {};
@@ -39,6 +54,7 @@ export class CvComponent implements OnInit {
         this.json = this.personas[i];
         }
     }
+
   }
 
   // public seleccionarEspecialidad ($event) {
@@ -46,16 +62,4 @@ export class CvComponent implements OnInit {
   //      console.log(this.especialidades);
   //      // this.jsonEspecialidad = this.especialidades(this.idEspecialidad);
   //   }
-
-  cargarPersonas(id) {
-    this.captarPersonas = [];
-    for (let i = 0; i < this.personas.length; i++) {
-      if (this.personas[i].idEspecialidad === id) {
-        // console.log('if', $event);
-        this.captarPersonas.push(this.personas[i]);
-      }
-    }
-    this.json = null;
-      // console.log(this.captarPersonas.length);
-  }
 }

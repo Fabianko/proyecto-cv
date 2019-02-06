@@ -1,0 +1,21 @@
+<form>
+  <select class="form-control form-control-lg" name="especialidad"
+  [(ngModel)]="idEspecialidad" (ngModelChange)="cargarPersonas(idEspecialidad)">
+    <option selected value='' disabled>Seleccione Especialidad</option>
+    <option *ngFor="let ocupacion of especialidades ; let i=index"
+    [(ngValue)]="1+i">{{ocupacion.carrera}}</option>
+  </select>
+</form>
+
+<hr />
+
+<form>
+  <select n class="form-control form-control-lg" name="personas"
+  [disabled]="!idEspecialidad" [(ngModel)]="id"
+  (ngModelChange)="seleccionarPersonas($event)">
+    <option selected value=null disabled>Seleccione Persona</option>
+    <option *ngFor="let persona of captarPersonas; let indice=index"
+    [(ngValue)]="persona">{{persona.datosPricipales.nombre}}</option>
+  </select>
+  <!-- <pre>{{captarPersonas | json}}</pre> -->
+</form>

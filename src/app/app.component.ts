@@ -8,12 +8,19 @@ import { Component } from '@angular/core';
 
 export class AppComponent {
   titulo = 'Resumen Curricular Desarroladores';
+  public item: any;
+
+  recibe(event) {
+    console.log(event);
+    this.item = event;
+  }
 
   constructor() {
     // this.personas = require('../assets/personas.json');
     // console.log(this.personas);
    }
 }
+
 
 // personas;
 // json;

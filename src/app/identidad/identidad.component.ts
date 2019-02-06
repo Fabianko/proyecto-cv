@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter, Input } from '@angular/core';
 
 @Component({
   selector: 'app-identidad',
@@ -6,10 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./identidad.component.css']
 })
 export class IdentidadComponent implements OnInit {
+@Input() public json: any;
+@Output() cargarIdentidad = new  EventEmitter();
 
   constructor() { }
 
   ngOnInit() {
+
   }
+
+public cargarDatosPersona ($event) {
+  this.cargarIdentidad.emit($event);
+}
 
 }

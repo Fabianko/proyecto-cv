@@ -1,3 +1,10 @@
-<p>
-  estudios works!
-</p>
+<div class="panel4">
+  <h4 class="estudios">Estudios Realizados</h4>
+  <div class="div_datos4" *ngFor="let item of json.EstudiosRealizados">
+
+    <h4><b>{{item.titulo}}</b></h4>
+    <p><b>Lugar:</b> {{item.instituto}}.</p>
+    <p><b>Dureción:</b> {{item.duracion}}.</p>
+    <p><b>Fecha de egreso:</b> {{item.fechaEgreso}}.</p>
+  </div>
+</div>

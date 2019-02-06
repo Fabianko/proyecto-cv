@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 
-import { InicioComponent } from './inicio/inicio.component';
 import { AppRoutingModule } from './app.routes';
 
 import { AppComponent } from './app.component';
@@ -21,7 +20,6 @@ import { ExperienciaComponent } from './experiencia/experiencia.component';
 @NgModule({
   declarations: [
     AppComponent,
-    InicioComponent,
     CvComponent,
     SeleccionComponent,
     IdentidadComponent,

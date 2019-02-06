@@ -1,3 +1,9 @@
-<p>
-  experiencia works!
-</p>
+<div class="panel5">
+  <h3 class="experiencia">Experiencia Laboral</h3>
+  <div class="div_datos4" *ngFor="let item of json.ExperienciaLaboral">
+    <h4><b>{{item.empresa}}</b></h4>
+    <p><b>Cargo:</b> {{item.cargo}}.</p>
+    <p><b>Fecha de Ingreso:</b> {{item.fecha_ingreso}}.</p>
+    <p><b>Descripción del cargo:</b> {{item.descripcion}}.</p>
+  </div>
+</div>

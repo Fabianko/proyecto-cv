@@ -12,15 +12,18 @@ import personas from '../../assets/json/personas.json';
 export class CvComponent implements OnInit {
 @Input() public json: any;
 
-  public personas: any;
-  // public json: any;
 
-  // Valor inicial de id para tomar valor del primer optiom
-  public id: number = null;
-  public idEspecialidad: any = '';
-  public especialidades: any;
-//  public jsonEspecialidad: any;
-  public captarPersonas: any = [];
+public identidad: any;
+
+public personas: any;
+//   // public json: any;
+//
+//   // Valor inicial de id para tomar valor del primer optiom
+//   public id: number = null;
+//   public idEspecialidad: any = '';
+//   public especialidades: any;
+// //  public jsonEspecialidad: any;
+//   public captarPersonas: any = [];
 
   constructor() {
   }
@@ -29,6 +32,11 @@ export class CvComponent implements OnInit {
     this.personas = personas;
     // this.especialidades = especialidades;
     // this.jsonEspecialidad = this.especialidades(this.idEspecialidad);
+  }
+
+  recibirIdentidad(event) {
+    console.log(event);
+    this.identidad = event;
   }
 
   // public seleccionarEspecialidad ($event) {

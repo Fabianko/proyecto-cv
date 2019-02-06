@@ -1,3 +1,20 @@
-<p>
-  identidad works!
-</p>
+<div class="div_image">
+  <img class="img-thumbnail" src={{json.fotoPerfil.imageUrl}} alt="">
+</div>
+<h1 class="margen_superior2" align="center">
+  {{json.datosPricipales.nombre}} </h1>
+<h2 class="margen_superior" align="center">
+  {{json.datosPricipales.profesion}} </h2>
+
+<div>
+  <h3 class="margen_info">Información Personal</h3>
+  <div class="panel1">
+    <div class="div_datos">
+      <p> <b>Rut:</b> {{json.informacionPersonal.rut}}.</p>
+      <p><b>Edad:</b> {{json.informacionPersonal.edad}} años.</p>
+      <p><b>Nacionalidad:</b> {{json.informacionPersonal.nac}}.</p>
+      <p><b>Email:</b> {{json.informacionPersonal.email}}.</p>
+      <p><b>Lugar de Residencia:</b> {{json.informacionPersonal.residencia}}.</p>
+    </div>
+  </div>
+</div>

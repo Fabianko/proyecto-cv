@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
+import { CvComponent } from './cv/cv.component';
 
 @Component({
   selector: 'app-root',
@@ -9,10 +10,13 @@ import { Component } from '@angular/core';
 export class AppComponent {
   titulo = 'Resumen Curricular Desarroladores';
   public item: any;
+  @ViewChild ('appCv') appCv: CvComponent;
 
   recibe(event) {
     console.log(event);
     this.item = event;
+    this.appCv.identidad = this.item;
+    // this.appCv.perfil = this.item;
   }
 
   constructor() {

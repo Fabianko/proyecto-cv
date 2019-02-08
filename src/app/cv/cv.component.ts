@@ -1,5 +1,7 @@
 // declare var require: any;
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, ViewChild } from '@angular/core';
+import { IdentidadComponent} from '../identidad/identidad.component';
+import { PerfilComponent} from '../perfil/perfil.component';
 import personas from '../../assets/json/personas.json';
 // import especialidades from '../../assets/json/especialidades.json';
 
@@ -12,8 +14,29 @@ import personas from '../../assets/json/personas.json';
 export class CvComponent implements OnInit {
 @Input() public json: any;
 
+@ViewChild ('appIdentidad') appIdentidad: IdentidadComponent;
+@ViewChild ('appPerfil') appPerfil: PerfilComponent;
 
-public identidad: any;
+public _identidad: any;
+public _perfil: any;
+
+public get identidad() {
+  return this._identidad;
+}
+
+public set identidad (identidad) {
+  this._identidad = identidad;
+  this.appIdentidad.json = identidad;
+}
+
+// public get pefil() {
+//   return this._perfil;
+// }
+//
+// public set perfil (perfil) {
+//   this._perfil = perfil;
+//   this.appPerfil.json = perfil;
+// }
 
 public personas: any;
 //   // public json: any;
@@ -30,13 +53,10 @@ public personas: any;
 
   ngOnInit() {
     this.personas = personas;
+    this.identidad = event;
+    // this.perfil = event;
     // this.especialidades = especialidades;
     // this.jsonEspecialidad = this.especialidades(this.idEspecialidad);
-  }
-
-  recibirIdentidad(event) {
-    console.log(event);
-    this.identidad = event;
   }
 
   // public seleccionarEspecialidad ($event) {

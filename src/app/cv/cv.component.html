@@ -7,15 +7,20 @@
       <div class="col-xs-6 margenPrincipal">
 
         <!-- Datos personales -->
-        <app-identidad
-          (cargarIdentidad) = recibirIdentidad($event)
+        <app-identidad #appIdentidad
+          [json] = "identidad"
         ></app-identidad>
 
         <!-- Perfil -->
+        <app-perfil #appPerfil
+        [json] = "perfil"
+        ></app-perfil>
 
         <!-- Aptitudes -->
+        <app-aptitudes></app-aptitudes>
 
         <!-- Programas -->
+        <app-programas></app-programas>
 
       </div>
     </div>
@@ -25,8 +30,10 @@
       <div class="col-xs-6 margenPrincipal">
 
         <!-- Estudios -->
+        <app-estudios></app-estudios>
 
         <!-- Experiencia -->
+        <app-experiencia></app-experiencia>
 
       </div>
     </div>

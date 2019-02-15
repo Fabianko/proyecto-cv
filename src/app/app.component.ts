@@ -12,11 +12,12 @@ export class AppComponent {
   public item: any;
   @ViewChild ('appCv') appCv: CvComponent;
 
-  recibe(event) {
+  recibirPersona(event) {
     console.log(event);
     this.item = event;
+    debugger;
     this.appCv.identidad = this.item;
-    // this.appCv.perfil = this.item;
+    this.appCv.perfil = this.item;
   }
 
   constructor() {

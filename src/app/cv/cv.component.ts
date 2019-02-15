@@ -26,17 +26,25 @@ public get identidad() {
 
 public set identidad (identidad) {
   this._identidad = identidad;
-  this.appIdentidad.json = identidad;
+  // console.log(identidad);
+  if (this.appIdentidad) {
+    this.appIdentidad.json = identidad;
+  }
+
+
 }
 
-// public get pefil() {
-//   return this._perfil;
-// }
-//
-// public set perfil (perfil) {
-//   this._perfil = perfil;
-//   this.appPerfil.json = perfil;
-// }
+public get perfil() {
+  return this._perfil;
+}
+
+public set perfil (perfil) {
+  this._perfil = perfil;
+  if (this.appPerfil) {
+    this.appPerfil.json = perfil;
+    console.log(perfil);
+  }
+}
 
 public personas: any;
 //   // public json: any;
@@ -49,12 +57,10 @@ public personas: any;
 //   public captarPersonas: any = [];
 
   constructor() {
+
   }
 
   ngOnInit() {
-    this.personas = personas;
-    this.identidad = event;
-    // this.perfil = event;
     // this.especialidades = especialidades;
     // this.jsonEspecialidad = this.especialidades(this.idEspecialidad);
   }

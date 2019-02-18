@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-programas',
@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./programas.component.css']
 })
 export class ProgramasComponent implements OnInit {
+
+@Input() public json: any;
 
   constructor() { }
 

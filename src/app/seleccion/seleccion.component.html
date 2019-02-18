@@ -1,7 +1,7 @@
 <form>
   <select class="form-control form-control-lg" name="especialidad"
   [(ngModel)]="idEspecialidad" (ngModelChange)="cargarPersonas(idEspecialidad)">
-    <option selected value='' disabled>Seleccione Especialidad</option>
+    <option selected value=null disabled>Seleccione Especialidad</option>
     <option *ngFor="let ocupacion of especialidades ; let i=index"
     [(ngValue)]="1+i">{{ocupacion.carrera}}</option>
   </select>

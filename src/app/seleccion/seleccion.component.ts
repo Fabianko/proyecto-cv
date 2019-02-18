@@ -13,12 +13,12 @@ export class SeleccionComponent implements OnInit {
 public personas: any;
 public json: any;
 public id: number = null;
-public idEspecialidad: any = '';
+public idEspecialidad: number = null;
 public especialidades: any;
 //  public jsonEspecialidad: any;
 public captarPersonas: any = [];
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit() {
     this.personas = personas;
@@ -43,12 +43,13 @@ public captarPersonas: any = [];
   public seleccionarPersonas($event) {
     console.log($event);
     this.cargarDatos.emit($event);
-    // this.json = {};
+    this.json = {};
     for (let i = 0; i < this.personas.length; i++) {
       if (this.personas[i].id === this.id) {
         // console.log('if', $event);
         this.json = this.personas[i];
-        }
+      } else { this.json = null; }
+      console.log('else');
     }
   }
 
